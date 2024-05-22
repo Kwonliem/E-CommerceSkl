@@ -3,7 +3,7 @@
       data-aos="fade-down"
     >
       <div class="container">
-        <a href="/index.html" class="navbar-brand">
+        <a href="{{route('home')}}" class="navbar-brand">
           <img src="/images/mrliemlogo.svg" alt="Logo" />
         </a>
         <button
