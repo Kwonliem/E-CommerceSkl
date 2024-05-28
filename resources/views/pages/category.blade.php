@@ -2,7 +2,7 @@
 
 
 @section('title')
-      Categorypage
+      Category Page
 @endsection
 
 

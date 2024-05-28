@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Store Homepage
+    Store Home Page
 @endsection
 
 
