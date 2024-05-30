@@ -12,7 +12,7 @@
     <title>@yield('title')</title>
     @stack('prepend-style')
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link href="style/main.css" rel="stylesheet" />
+    <link href="/style/main.css" rel="stylesheet" />
     @stack('addon-style')
   </head>
 
@@ -26,13 +26,13 @@
           </div>
           <div class="list-group list-group-flush">
             <a
-              href="/dashboard.html"
-              class="list-group-item list-group-item-action active"
+              href="{{route('dashboard')}}"
+              class="list-group-item list-group-item-action"
             >
               Dashboard
             </a>
             <a
-              href="/dashboard-products.html"
+              href="{{route('dashboard-products')}}"
               class="list-group-item list-group-item-action"
             >
               My Products

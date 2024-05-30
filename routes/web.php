@@ -18,4 +18,13 @@ Route::get('/register/success', [App\Http\Controllers\Auth\RegisterController::c
 
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 
+
+Route::get('/dashboard/products', [App\Http\Controllers\DashboardProductsController::class, 'index'])->name('dashboard-products');
+Route::get('/dashboard/products/create', [App\Http\Controllers\DashboardProductsController::class, 'create'])->name('dashboard-products-create');
+Route::get('/dashboard/products/{id}', [App\Http\Controllers\DashboardProductsController::class, 'details'])->name('dashboard-products-details');
+
+
+Route::get('/dashboard/transactions', [App\Http\Controllers\DashboardTransactionsController::class, 'index'])->name('dashboard-transactions');
+
+
 Auth::routes();
