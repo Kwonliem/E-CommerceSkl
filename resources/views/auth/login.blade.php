@@ -14,8 +14,8 @@
           </div>
           <div class="col-lg-5">
             <h2>
-              Shopping for basic needs, <br />
-              becomes easier
+              Kalau Kamu Hitam <br />
+              Dilarang Login !
             </h2>
             <form action="" class="mt-3">
               <div class="form group">
